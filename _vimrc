@@ -64,6 +64,16 @@ highlight OverLength ctermbg=red ctermfg=white guibg=#592929
 match OverLength /\%81v.\+/
 
 " My VIM Cheatsheet
+" Cool Stuff to add in future
+" Improve Insert mode experience maybe?
+" 
+" inoremap II <Esc>I
+" inoremap AA <Esc>A
+" inoremap OO <Esc>O
+" 
+" II jumps before the first non-blank text of the line
+" AA jumps to the end of the line
+" OO start editing on a new line above the current line
 "
 " 
 " Avoiding the <esc> key
@@ -252,7 +262,7 @@ match OverLength /\%81v.\+/
 "     Ctrl-w k
 "     Ctrl-w ?	Shift focus to split above the current
 "     Ctrl-w n+	Increase size of current split by n lines
-"     Ctrl-w n–	Decrease size of current split by n lines
+"     Ctrl-w nâ€“	Decrease size of current split by n lines
 "     :tabedit <file> - Open mutiple files in tabs
 "     ctrl-pgup/ctrl-pgdn - switch between tabs in Unix
 "     :ls - list all files in buffer
