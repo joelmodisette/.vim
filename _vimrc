@@ -63,7 +63,10 @@ set textwidth=80
 highlight OverLength ctermbg=red ctermfg=white guibg=#592929
 match OverLength /\%81v.\+/
 
+"=====================================================================================================
 " My VIM Cheatsheet
+"=====================================================================================================
+" 
 " Cool Stuff to add in future
 " Improve Insert mode experience maybe?
 " 
@@ -283,7 +286,7 @@ match OverLength /\%81v.\+/
 " 
 " Cool things to do
 "
-"
+"  g <ctrl> g  ... word count the buffer
 "     :echo $VIM  ...where is VIM running?
 "     :echo $MYVIMRC  ... where is my VIMRC
 "     :e $MYVIMRC   ... edit my VIMRC 
