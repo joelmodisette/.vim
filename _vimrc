@@ -57,16 +57,18 @@ set statusline+=%=                           " right align remainder
 set statusline+=%-14(%l,%c%V%)               " line, character
 set statusline+=%<%P               " file position
 
-set textwidth=80
+" set textwidth=80
 
 " 80 margin line
-highlight OverLength ctermbg=red ctermfg=white guibg=#592929
-match OverLength /\%81v.\+/
+" highlight OverLength ctermbg=red ctermfg=white guibg=#592929
+" match OverLength /\%81v.\+/
 
 "=====================================================================================================
 " My VIM Cheatsheet
 "=====================================================================================================
-" 
+" Advanced Features VIM
+" https://thevaluable.dev/vim-advanced/
+"
 " Cool Stuff to add in future
 " Improve Insert mode experience maybe?
 " 
@@ -78,12 +80,6 @@ match OverLength /\%81v.\+/
 " AA jumps to the end of the line
 " OO start editing on a new line above the current line
 "
-" 
-" Avoiding the <esc> key
-" 
-"     :imap jk <Esc>
-"              " Can be typed even faster than jj
-"     <ctrl> [      ... also works like <esc>
 " 
 "
 " Macros
