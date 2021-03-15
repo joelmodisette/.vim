@@ -69,18 +69,6 @@ set statusline+=%<%P               " file position
 " Advanced Features VIM
 " https://thevaluable.dev/vim-advanced/
 "
-" Cool Stuff to add in future
-" Improve Insert mode experience maybe?
-" 
-" inoremap II <Esc>I
-" inoremap AA <Esc>A
-" inoremap OO <Esc>O
-" 
-" II jumps before the first non-blank text of the line
-" AA jumps to the end of the line
-" OO start editing on a new line above the current line
-"
-" 
 "
 " Macros
 " 
@@ -91,12 +79,19 @@ set statusline+=%<%P               " file position
 "     @@ execute your macro again
 "     !! you can embed @a to run the macro recursively,
 "         ..just include a 'j' line down
-
+"
 "           to edit a register, just "ap then "ayy for register a
+"
+" :g/ Stuff
+"
 "     :g/GET.INVENTORY.ITEM/z#.5   ... show a 5 line context with the :g
 " 
 "     :g/pattern/norm @o ...execute the macro stored in register 'o' on all lines m
-" 
+"
+"      :g/const/put='some thing'
+"      ... inserts 'some thing' at the end of every line with 'const'
+"      :g/const/-put='some thing'
+"      ... inserts 'some thing' before every line with 'const'
 " 
 " Folders
 " 
